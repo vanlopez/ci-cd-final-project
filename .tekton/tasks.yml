@@ -4,7 +4,7 @@ metadata:
   name: cleanup
 spec:
   description: This task will clean up a workspace by deleting all the files.
-  workspace:
+  workspaces:
     - name: source
   steps:
     - name: remove
